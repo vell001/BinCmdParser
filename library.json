@@ -1,0 +1,22 @@
+{
+  "name": "BinCmdParser",
+  "version": "1.0.0",
+  "description": "binary command parser, with dynamic header size, dynamic data size, dynamic checksum size",
+  "keywords": "stm32, arduino, c++",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/vell001/BinCmdParser.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Vell He",
+      "email": "vell001@qq.com",
+      "url": "https://vell001.ml"
+    }
+  ],
+  "homepage": "https://github.com/vell001/BinCmdParser.git",
+  "frameworks": "*",
+  "platforms": "*"
+}
