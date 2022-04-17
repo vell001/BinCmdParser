@@ -13,11 +13,11 @@
 #define LOG(...)
 #endif
 
-typedef struct CommandData {
-    uint8_t *cmdData = nullptr; // 输出命令
-    uint32_t cmdDataSize = 0; // 命令长度
+typedef struct CmdData {
+    uint8_t *cmdData = nullptr; // 命令开始指针
+    uint32_t cmdDataSize = 0; // 命令总长度
     uint8_t *data = nullptr; // 数据段指针
-    uint32_t dataSize = 0;
+    uint32_t dataSize = 0; // 数据长度
 } CmdData;
 
 
